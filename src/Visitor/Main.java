@@ -4,7 +4,7 @@ import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
-        //Locale.setDefault(Locale.US);
+        Locale.setDefault(Locale.US);
         TaxVisitor taxVisitor = new TaxVisitor();
         DiscountVisitor discountVisitor = new DiscountVisitor();
         Jacket jacket = new Jacket(45,88);
