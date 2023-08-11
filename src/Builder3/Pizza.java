@@ -36,9 +36,9 @@ public class Pizza {
     // Other methods
     @Override
     public String toString() {
-        return "Pizza with " + crust + " crust, " + sauce + " sauce, " +
-                (cheese ? "cheese" : "") + ", " +
-                (pepperoni ? "pepperoni" : "") + ", " +
-                (mushrooms ? "mushrooms" : "");
+        return "Pizza with " + crust + " crust, " + sauce + " sauce" +
+                (cheese ? ", cheese" : "")  +
+                (pepperoni ? ", pepperoni" : "")  +
+                (mushrooms ? ", mushrooms" : "");
     }
 }
