@@ -7,6 +7,7 @@ public class TaxVisitor implements Visitor {
     DecimalFormat decimalFormat = new DecimalFormat("#.##");
 
     public TaxVisitor() {
+
     }
 
     @Override
